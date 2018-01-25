@@ -1,0 +1,24 @@
+body{
+background: rgba(171,85,85,1);
+background: -moz-linear-gradient(45deg, rgba(171,85,85,1) 0%, rgba(171,85,85,1) 16%, rgba(79,133,185,1) 40%, rgba(41,153,227,1) 50%, rgba(237,187,221,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(171,85,85,1)), color-stop(16%, rgba(171,85,85,1)), color-stop(40%, rgba(79,133,185,1)), color-stop(50%, rgba(41,153,227,1)), color-stop(100%, rgba(237,187,221,1)));
+background: -webkit-linear-gradient(45deg, rgba(171,85,85,1) 0%, rgba(171,85,85,1) 16%, rgba(79,133,185,1) 40%, rgba(41,153,227,1) 50%, rgba(237,187,221,1) 100%);
+background: -o-linear-gradient(45deg, rgba(171,85,85,1) 0%, rgba(171,85,85,1) 16%, rgba(79,133,185,1) 40%, rgba(41,153,227,1) 50%, rgba(237,187,221,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(171,85,85,1) 0%, rgba(171,85,85,1) 16%, rgba(79,133,185,1) 40%, rgba(41,153,227,1) 50%, rgba(237,187,221,1) 100%);
+background: linear-gradient(45deg, rgba(171,85,85,1) 0%, rgba(171,85,85,1) 16%, rgba(79,133,185,1) 40%, rgba(41,153,227,1) 50%, rgba(237,187,221,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab5555', endColorstr='#edbbdd', GradientType=1 );
+height: 100vh;
+overflow:hidden;
+}
+h1{
+	text-align: center;
+	font-size: 3.75rem;
+	margin-top: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+.loginDiv{
+	background-color: white;
+	border-radius: 5px;
+	min-height: 500px;
+}
